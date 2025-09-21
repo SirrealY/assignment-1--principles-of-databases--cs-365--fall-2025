@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "student.dtd">
+
+<students>
+  <student id="1234567" status="full-time">
+    <firstname>Gordon</firstname>
+    <middlename>Matthew</middlename>
+    <lastname>Sumner</lastname>
+    <preferredname>Sting</preferredname>
+    <email>sting@police.com</email>
+    <phone>212.123.4567</phone>
+    <standing>first year</standing>
+    <gpa>4.0</gpa>
+    <major>Music</major>
+    <minor>English</minor>
+    <advisor>Andy Summers</advisor>
+    <enrollmentdate>08-25-1969</enrollmentdate>
+    <graduationdate>05-01-1973</graduationdate>
+  </student>
+
+  <student id="4567890" status="full-time">
+    <firstname>Kim</firstname>
+  </student>
+
+</students>
