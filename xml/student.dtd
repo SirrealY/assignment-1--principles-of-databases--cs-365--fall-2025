@@ -1,0 +1,26 @@
+<!-- Our Root Element (Students) must contain one or more students -->
+<!ELEMENT students (students+)>
+
+<!-- A student element has child elements -->
+<!ELEMENT student (firstname, middlename?, lastname, preferredname?, email, phone, standing, gpa, major, minor?, advisor, enrollmentdate, graduationdate)>
+
+<!-- Each Student MUST have an id and a status -->
+<!ATTLIST student
+  id CDATA #REQUIRED
+  status (full-time | part-time | graduated | withdrawn) #REQUIRED
+>
+
+<!-- Child Element Definitions -->
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT middlename (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT preferredname (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT standing (#PCDATA)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!ELEMENT enrollmentdate (#PCDATA)>
+<!ELEMENT graduationdate (#PCDATA)>
