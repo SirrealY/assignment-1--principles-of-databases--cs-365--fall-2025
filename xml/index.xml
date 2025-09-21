@@ -7,7 +7,7 @@
     <middlename>Matthew</middlename>
     <lastname>Sumner</lastname>
     <preferredname>Sting</preferredname>
-    <email>sting@police.com</email>
+    <email>sting@thepolice.com</email>
     <phone>212.123.4567</phone>
     <standing>first year</standing>
     <gpa>4.0</gpa>
@@ -81,5 +81,4 @@
     <enrollmentdate>08-25-1984</enrollmentdate>
     <graduationdate>05-01-1988</graduationdate>
   </student>
-
 </students>
