@@ -20,6 +20,50 @@
 
   <student id="4567890" status="full-time">
     <firstname>Kim</firstname>
+    <middlename></middlename>
+    <lastname>Thayil</lastname>
+    <preferredname></preferredname>
+    <email>kim@soundgarden.com</email>
+    <phone>206.123.4567</phone>
+    <standing>second year</standing>
+    <gpa>3.0</gpa>
+    <major>Philosophy</major>
+    <minor>Music</minor>
+    <advisor>Chris Cornell</advisor>
+    <enrollmentdate>08-25-1978</enrollmentdate>
+    <graduationdate>05-01-1982</graduationdate>
+  </student>
+
+  <student id="8302438" status="part-time">
+    <firstname>Saul</firstname>
+    <middlename></middlename>
+    <lastname>Hudson</lastname>
+    <preferredname>Slash</preferredname>
+    <email>slash@gnr.com</email>
+    <phone>213.456.8392</phone>
+    <standing>fourth year</standing>
+    <gpa>2.0</gpa>
+    <major>Music</major>
+    <minor>Criminal Justice</minor>
+    <advisor>Axl Rose</advisor>
+    <enrollmentdate>08-25-1983</enrollmentdate>
+    <graduationdate>05-01-1987</graduationdate>
+  </student>
+
+  <student id="2983928" status="full-time">
+    <firstname>Emily</firstname>
+    <middlename></middlename>
+    <lastname>Kokal</lastname>
+    <preferredname></preferredname>
+    <email>emily@warpaint.com</email>
+    <phone>213.123.7654</phone>
+    <standing>third year</standing>
+    <gpa>3.8</gpa>
+    <major>Political Science</major>
+    <minor>Law</minor>
+    <advisor>Jenny Lee Lindberg</advisor>
+    <enrollmentdate>08-25-1998</enrollmentdate>
+    <graduationdate>05-01-2002</graduationdate>
   </student>
 
 </students>
