@@ -1,5 +1,5 @@
 <!-- Our Root Element (Students) must contain one or more students -->
-<!ELEMENT students (students+)>
+<!ELEMENT students (student+)>
 
 <!-- A student element has child elements -->
 <!ELEMENT student (firstname, middlename?, lastname, preferredname?, email, phone, standing, gpa, major, minor?, advisor, enrollmentdate, graduationdate)>
