@@ -66,4 +66,20 @@
     <graduationdate>05-01-2002</graduationdate>
   </student>
 
+  <student id="7645726" status="full-time">
+    <firstname>Mike</firstname>
+    <middlename></middlename>
+    <lastname>Inez</lastname>
+    <preferredname></preferredname>
+    <email>mike@aic.com</email>
+    <phone>213.444.3323</phone>
+    <standing>second year</standing>
+    <gpa>4.0</gpa>
+    <major>Business Management</major>
+    <minor>Math</minor>
+    <advisor>Jerry Cantrell</advisor>
+    <enrollmentdate>08-25-1984</enrollmentdate>
+    <graduationdate>05-01-1988</graduationdate>
+  </student>
+
 </students>
