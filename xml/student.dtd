@@ -5,22 +5,24 @@
 <!ELEMENT student (firstname, middlename?, lastname, preferredname?, email, phone, standing, gpa, major, minor?, advisor, enrollmentdate, graduationdate)>
 
 <!-- Each Student MUST have an id and a status -->
+<!-- ID is requiredl status can be "full-time", "part-time", "graduated", or "withdrawn" -->
 <!ATTLIST student
   id CDATA #REQUIRED
   status (full-time | part-time | graduated | withdrawn) #REQUIRED
 >
 
+
 <!-- Child Element Definitions -->
-<!ELEMENT firstname (#PCDATA)>
-<!ELEMENT middlename (#PCDATA)>
-<!ELEMENT lastname (#PCDATA)>
-<!ELEMENT preferredname (#PCDATA)>
-<!ELEMENT email (#PCDATA)>
-<!ELEMENT phone (#PCDATA)>
-<!ELEMENT standing (#PCDATA)>
-<!ELEMENT gpa (#PCDATA)>
-<!ELEMENT major (#PCDATA)>
-<!ELEMENT minor (#PCDATA)>
-<!ELEMENT advisor (#PCDATA)>
-<!ELEMENT enrollmentdate (#PCDATA)>
-<!ELEMENT graduationdate (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>  <!-- First name, plain text -->
+<!ELEMENT middlename (#PCDATA)> <!-- Middle name, NOT A REQUIRED -->
+<!ELEMENT lastname (#PCDATA)> <!-- Last name, plain text -->
+<!ELEMENT preferredname (#PCDATA)> <!-- Preferred name, NOT A REQUIRED -->
+<!ELEMENT email (#PCDATA)> <!-- Student's Email -->
+<!ELEMENT phone (#PCDATA)> <!-- Student's Phone -->
+<!ELEMENT standing (#PCDATA)> <!-- Student's Current Year -->
+<!ELEMENT gpa (#PCDATA)> <!-- Student's GPA -->
+<!ELEMENT major (#PCDATA)> <!-- Student's Major -->
+<!ELEMENT minor (#PCDATA)> <!-- Student's Minor -->
+<!ELEMENT advisor (#PCDATA)> <!-- Student's Advisor -->
+<!ELEMENT enrollmentdate (#PCDATA)> <!-- Student's Enrollment Date -->
+<!ELEMENT graduationdate (#PCDATA)> <!-- Student's Graduation Date -->

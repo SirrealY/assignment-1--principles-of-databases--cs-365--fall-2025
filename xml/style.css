@@ -4,8 +4,9 @@
 student {
   display: block;
   margin-bottom: 1em;
-  padding: 5px;
+  padding: 10px;
   border: 1px solid #333
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 /* Showing Attributes using CSS content + attr() */
@@ -15,5 +16,22 @@ student::before{
   display: block;
   font-weight: bold;
   margin-bottom: 0.5em;
+  color: #222
+}
 
+firstname,
+middlename,
+lastname,
+preferredname,
+email,
+phone,
+standing,
+gpa,
+major,
+minor,
+advisor,
+enrollmentdate,
+graduationdate {
+  display: block;
+  margin-left: 1em;
 }
